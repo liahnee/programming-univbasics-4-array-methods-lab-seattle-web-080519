@@ -1,9 +1,11 @@
 def using_include(array, element)
- array.include?(element)
+ one = array.include?(element)
+ return one
 end
 
 def using_sort(array)
- array.sort
+ two = array.sort
+ return two
 end
 
 def using_reverse(array)
