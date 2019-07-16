@@ -1,6 +1,5 @@
 def using_include(array, element)
  one = array.include?(element)
- return one
 end
 
 def using_sort(array)
@@ -9,7 +8,8 @@ def using_sort(array)
 end
 
 def using_reverse(array)
- array.reverse
+ one = array.reverse
+ return one
 end
 
 def using_first(array)
